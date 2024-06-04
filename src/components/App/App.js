@@ -37,7 +37,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <App Info />
+        <AppInfo />
         <div>
           <AddTask onAdd={this.addItem} />
           <AppFilter />
