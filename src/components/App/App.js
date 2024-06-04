@@ -1,5 +1,11 @@
 import "./app/css";
 
+import AppInfo from "../AppInfo/app-info"
+import AddTask from "../AppTask/app-task";
+import AppFilter from "../AppFilter/app-filter"
+import TaskList from "../TaskList/task-list";
+import Header from "../Header/header";
+
 class App extends Component {
   constructor(props) {
     super(props);
